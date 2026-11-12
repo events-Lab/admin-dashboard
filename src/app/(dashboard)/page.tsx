@@ -20,10 +20,10 @@ import { mockPeople } from "@/lib/data/people";
 import { mockAdminProducts } from "@/lib/data/products";
 
 const statusMeta = [
-  { key: "live", label: "Live", color: "#f97316" },
-  { key: "published", label: "Published", color: "#6d28d9" },
-  { key: "draft", label: "Draft", color: "#b794ff" },
-  { key: "completed", label: "Completed", color: "#a894b6" },
+  { key: "live", label: "Live", color: "#55c7f3" },
+  { key: "published", label: "Published", color: "#1677ff" },
+  { key: "draft", label: "Draft", color: "#93dff7" },
+  { key: "completed", label: "Completed", color: "#64748b" },
 ] as const;
 
 function countBy<T extends string>(values: T[], key: T) {
@@ -120,7 +120,7 @@ export default function OverviewPage() {
 
   return (
     <div className="page-enter flex flex-col gap-6">
-      <section className="hero-glow relative overflow-hidden rounded-[28px] px-6 py-7 text-white shadow-[0_20px_50px_rgba(91,33,182,0.28)]">
+      <section className="hero-glow relative overflow-hidden rounded-[28px] px-6 py-7 text-white shadow-[0_20px_50px_rgba(16,42,67,0.28)]">
         <div className="float-orb pointer-events-none absolute -top-8 -right-6 size-36 rounded-full bg-accent/45 blur-2xl" />
         <p className="relative m-0 text-xs font-semibold tracking-[0.08em] text-accent-100 uppercase">
           Today

@@ -40,7 +40,7 @@ export function ColumnChart({
             </span>
             <div className="flex h-[148px] w-full items-end justify-center">
               <div
-                className="w-full max-w-14 rounded-t-xl bg-linear-to-t from-primary-700 via-primary to-accent shadow-[0_8px_16px_rgba(109,40,217,0.18)]"
+                className="w-full max-w-14 rounded-t-xl bg-linear-to-t from-primary-700 via-primary to-accent shadow-[0_8px_16px_rgba(22,119,255,0.18)]"
                 style={{ height: Math.max(height, point.value > 0 ? 10 : 4) }}
                 title={`${point.label}: ${format(point.value)}`}
               />
@@ -155,13 +155,13 @@ export function StatusDonut({
           x="70"
           y="66"
           textAnchor="middle"
-          fill="#1d1428"
+          fill="#1e293b"
           fontSize="26"
           fontWeight="650"
         >
           {total}
         </text>
-        <text x="70" y="86" textAnchor="middle" fill="#6f5e82" fontSize="11">
+        <text x="70" y="86" textAnchor="middle" fill="#64748b" fontSize="11">
           events
         </text>
       </svg>
